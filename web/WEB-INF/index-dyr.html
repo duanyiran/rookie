@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testing</title>
+</head>
+<body>
+<form action="/echo" method="POST">
+    <form target="_top" action=/echo name="frmAction" id="frmAction" method="post" onSubmit="return verifycodevalid();">
+        <p class="FormContentText"><span class="bgRedStar">您的姓名：</span>
+            <input type="text" name="客户姓名" style="width:100px;" id="xingming" />
+            <span style=" margin-left:50px; width:50px;" class="bgRedStar">性别：</span>
+            <select name="性别" style="width:100px" id="xingbie">
+                <option value="-1">请选择</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+        </p>
+        <p class="FormContentText"><span class="bgRedStar">您的手机号码：</span>
+            <input type="text" name="手机号码" id="dianhua" style="width:100px" />
+            <span  style=" margin-left:50px; width:80px;"class="bgRedStar">教育状况：</span>
+            <select name="教育状况" id="jiaoyuzhuangkuang">
+                <option value="-1">请选择</option>
+                <option value="大专/本科">大专/本科</option>
+                <option value="硕士及以上">硕士及以上</option>
+                <option value="中专/高中">中专/高中</option>
+                <option value="初中及以下">初中及以下</option>
+            </select>
+        </p>
+        <p class="FormContentText"><span class="bgRedStar">证件类型</span>
+            <select name="证件类型" style="width:100px" id="zhengjian">
+                <option value="-1">请选择</option>
+                <option value="身份证">身份证</option>
+                <option value="军官证">军官证</option>
+                <option value="其他">其他</option>
+            </select>
+        <p class="FormContentText"><span class="bgRedStar">证件号码：</span>
+            <input type="text" name="证件号码" id="cardno" />
+        </p>
+        </p>
+        <p class="FormContentText"><span class="bgRedStar">所在省份：</span>
+            <input name="所在省份" id="sf">
+        </p>
+        <p class="FormContentText"><span class="bgRedStar">公司名称：</span>
+            <input type="text" name="工作单位" id="gongzuodanwei" />
+        </p>
+        <input type="submit" class="Formbtn" value="提交" />  <!--onclick="_BFD.order()"-->
+</form>
+
+</body>
+</html>
